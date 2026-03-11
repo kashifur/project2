@@ -1,0 +1,488 @@
+.ka img{
+    width: 2000px;
+    height: 900px;
+    display: flex;
+}
+.rahman ul{
+    overflow: auto;
+    border: 0px solid black;
+    padding: 4px 4px;
+margin-top: 0%;
+margin-bottom: 0%;
+width: 1995px;
+background-color: aquamarine;
+background-color: aquamarine;
+animation-name: Hero;
+animation-duration:2s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+.rahman li{
+float:left;
+list-style: none;
+color: white;
+margin-left: 50px; 
+}
+.rahman li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+background-color: aquamarine;
+animation-name: kashif;
+animation-duration:2s;
+animation-delay: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+.rahman li a:hover{
+    color: red;
+    font-size: 28px;   
+}
+.rahman ul:hover{
+    background-color: aqua;
+}
+@keyframes kashif{
+    from{
+       color:rgb(2, 195, 86); 
+    }
+to{
+    color: red;
+}}
+@keyframes Hero{
+from{
+    border-radius: 10px;}
+    to{
+    border-radius: 15px;
+}
+}
+#Phone{
+    border: 3px dotted black;
+    display: flex;
+    justify-content: center;
+align-items: center;
+width: 1350px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+font-size: 80px;
+color:white;
+background-color: rgb(2, 209, 102);
+transition-duration: 1s;
+border-radius: 40px;
+}
+#Phone:hover{
+    color: yellow;
+}
+#iphone{
+animation-name: iphone;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 140px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 70px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+}
+@keyframes iphone{
+from{
+    color: red;
+}
+to{
+    color:white;
+}
+}
+table{
+    border:5px solid red ;
+width: 2000px;
+display: flex;
+
+}
+   
+img{
+    width: 175px;
+    height: 190px;
+   }     
+
+   th{
+    font-size: 40px;
+   }
+   
+
+
+   th,td{
+    padding-bottom: 20px;
+padding-top: 20px;
+padding-right: 137px;
+padding-left: 137px;
+   }
+
+td{
+    font-size: 30px;
+}
+table{
+    border-collapse: collapse;
+}
+th,td{
+    border: 3px solid rebeccapurple;
+}
+#s{
+    margin: 10px;
+    padding: 10px;
+}
+#Hii{
+    font-size: 30px ;
+}
+
+
+
+
+
+
+
+
+#Vivo{
+animation-name: Vivo;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 140px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 70px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+}
+@keyframes Vivo{
+from{
+    color: red;
+}
+to{
+    color:white;
+}
+}
+
+
+
+#Onplus{
+animation-name:Onplus;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 140px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 70px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+}
+@keyframes Onplus{
+from{
+    color: red;
+}
+to{
+    color:white;
+}
+}
+
+
+
+
+
+
+
+#Samsung{
+animation-name:Samsung;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 140px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 70px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+}
+@keyframes Samsung{
+from{
+    color: red;
+}
+to{
+    color:white;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Laptop{
+    border: 3px dotted black;
+    display: flex;
+    justify-content: center;
+align-items: center;
+width: 1350px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+font-size: 80px;
+color:white;
+background-color: rgb(2, 209, 102);
+transition-duration: 1s;
+border-radius: 40px;
+}
+#Laptop:hover{
+    color: yellow;
+}
+#Macbook{
+animation-name: Macbook;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 140px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 70px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+}
+@keyframes Macbook{
+from{
+    color: red;
+}
+to{
+    color:white;}
+}
+
+
+
+
+
+
+#Macbook{
+animation-name:Macbook;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 140px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 70px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+}
+@keyframes Macbook{
+from{
+    color: red;
+}
+to{
+    color:white;
+}
+}
+
+
+
+
+#HP{
+animation-name:HP;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 140px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 70px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+}
+@keyframes HP{
+from{
+    color: red;
+}
+to{
+    color:white;
+}
+}
+
+
+
+
+
+#Lenevo{
+animation-name:Lenevo;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 140px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 70px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+}
+@keyframes Lenevo{
+from{
+    color: red;
+}
+to{
+    color:white;
+}
+}
+
+
+
+
+
+
+#ASUS{
+animation-name:Asus;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 140px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 70px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+}
+@keyframes Asus{
+from{
+    color: red;
+}
+to{
+    color:white;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Fashion{
+    border: 3px dotted black;
+    display: flex;
+    justify-content: center;
+align-items: center;
+width: 1350px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+font-size: 80px;
+color:white;
+background-color: rgb(2, 209, 102);
+transition-duration: 1s;
+border-radius: 40px;
+}
+#Phone:hover{
+    color: yellow;
+}
+#iphone{
+animation-name: iphone;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 140px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 70px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+}
+@keyframes iphone{
+from{
+    color: red;
+}
+to{
+    color:white;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
