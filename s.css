@@ -248,3 +248,32 @@ grid-template-columns: repeat(3, 1fr);
     color: white;
     border-radius: 3px;
 }
+
+
+
+
+#ASUS{
+animation-name: ASUS;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 140px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 170px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+padding-right: 20px;
+}
+@keyframes ASUS{
+from{
+    color: red;
+}
+to{
+    color:white;
+}
+}
