@@ -215,6 +215,37 @@ to{
     color:white;
 }
 }
+
+
+
+#he{
+animation-name: he;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 140px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 70px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+padding-right: 20px;
+}
+@keyframes he{
+from{
+    color: red;
+}
+to{
+    color:white;
+}
+}
+
+
+
 .FOLDER{
     display:grid;
 width: 1400px;
@@ -222,6 +253,23 @@ height: 1300px;
 grid-template-columns: repeat(3, 1fr); 
     gap: 200px;
 }
+.FOLDER1{
+    display:grid;
+width: 1400px;
+height: 1300px;
+grid-template-columns: repeat(3, 1fr); 
+    gap: 200px;
+}
+
+
+.FOLDER2{
+    display:grid;
+width: 1400px;
+height: 650px;
+grid-template-columns: repeat(3, 1fr); 
+    gap: 200px;
+}
+
 
 .CONTANT{
     width: 530px;
@@ -278,11 +326,6 @@ to{
 }
 }
 
-
-<<<<<<< HEAD
-#Electronics{
-=======
-
 #HP{
 animation-name: HP;
 animation-duration :2s;
@@ -311,9 +354,7 @@ to{
 
 
 
-
 #STATIONARY{
->>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
     border: 3px dotted black;
     display: flex;
     justify-content: center;
@@ -328,28 +369,19 @@ background-color: rgb(2, 209, 102);
 transition-duration: 1s;
 border-radius: 40px;
 }
-<<<<<<< HEAD
 #Laptop:hover{
-    color: yellow;
-}
-#Bluetooth{
-animation-name:Bluetooth;
-=======
+    color: yellow;}
+
 #STATIONARY:hover{
     color: yellow;
 }
 #CLASSMATEPEN{
 animation-name: CLASSMATEPEN;
->>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
 animation-duration :2s;
 animation-iteration-count: infinite;
 animation-direction: alternate;
 border: 1px solid black;
-<<<<<<< HEAD
-width: 140px;
-=======
 width: 290px;
->>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
 display: flex;
 justify-content: center;
 align-items: center;
@@ -360,11 +392,7 @@ border-radius: 30px;
 font-size: 32px;
 padding-right: 20px;
 }
-<<<<<<< HEAD
-@keyframes Bluetooth{
-=======
 @keyframes CLASSMATEPEN{
->>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
 from{
     color: red;
 }
@@ -372,26 +400,14 @@ to{
     color:white;
 }
 }
-<<<<<<< HEAD
-.FOLDER1{
-    display:grid;
-width: 1400px;
-height: 650px;
-=======
+
+
 .NEW1{
     display:grid;
 width: 1400px;
 height: 700px;
->>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
 grid-template-columns: repeat(3, 1fr); 
-    gap: 200px;
-}
-
-<<<<<<< HEAD
-.CONTANT1{
-=======
-
-
+    gap: 200px;}
 .NEW{
     display:grid;
 width: 1400px;
@@ -400,31 +416,28 @@ grid-template-columns: repeat(3, 1fr);
     gap: 200px;
 }
 
+.NEW6{
+    display:grid;
+width: 1400px;
+height: 2600px;
+grid-template-columns: repeat(3, 1fr); 
+    gap: 200px;
+}
+
 .HERO{
->>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
     width: 530px;
     height: 600px;
     border: 2px solid white;
     background-color: rgb(241, 236, 232);
     border-radius: 30px;
 }
-<<<<<<< HEAD
-.CONTANT1 img{
-=======
 .HERO img{
->>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
-    width:90%;
+ width:90%;
     height: 57%;
     padding-left: 28px;
     padding-top: 15px;
 }
-
-
-<<<<<<< HEAD
-.CONTANT1 a{
-=======
 .HERO a{
->>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
     font-size: 40px;
     text-decoration: none;
     display: flex;
@@ -435,57 +448,23 @@ grid-template-columns: repeat(3, 1fr);
     border-radius: 3px;
 }
 
-
-
-<<<<<<< HEAD
-
-#Bluetooth{
-animation-name: ASUS;
-=======
 #Oneplus{
 animation-name:Oneplus;
->>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
 animation-duration :2s;
 animation-iteration-count: infinite;
 animation-direction: alternate;
 border: 1px solid black;
-<<<<<<< HEAD
-width: 250px;
-=======
-width: 100px;
->>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
 display: flex;
 justify-content: center;
 align-items: center;
 background-color:rgba(0, 0, 0, 0.849);
-<<<<<<< HEAD
-margin-top: 170px;
-margin-left: 15px;
-border-radius: 30px;
-font-size: 32px;
-padding-right: 20px;
-}
-@keyframes ASUS{
-=======
-margin-top: 70px;
-margin-left: 15px;
-border-radius: 30px;
-font-size: 32px;
-padding-right: 45px;
 }
 @keyframes Oneplus{
->>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
 from{
     color: red;
 }
 to{
-    color:white;
-<<<<<<< HEAD
-}}
-=======
-}
-}
-
+    color:white;}}
 #CLASSMATE{
 animation-name: CLASSMATE;
 animation-duration :2s;
@@ -511,18 +490,13 @@ to{
     color:white;
 }
 }
-
-
-
-
-
-#GEOMETRYBOX{
-animation-name:GEOMETRYBOX;
+#CLASSMATE{
+animation-name: CLASSMATE;
 animation-duration :2s;
 animation-iteration-count: infinite;
 animation-direction: alternate;
 border: 1px solid black;
-width: 500px;
+width: 400px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -533,7 +507,7 @@ border-radius: 30px;
 font-size: 32px;
 padding-right: 20px;
 }
-@keyframes GEOMETRYBOX{
+@keyframes CLASSMATE{
 from{
     color: red;
 }
@@ -541,8 +515,6 @@ to{
     color:white;
 }
 }
-
-
 
 
 
@@ -576,8 +548,555 @@ border-radius: 40px;
 }
 
 
+#TOYS{
+    border: 3px dotted black;
+    display: flex;
+    justify-content: center;
+align-items: center;
+width: 1350px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+font-size: 80px;
+color:white;
+background-color: rgb(2, 209, 102);
+transition-duration: 1s;
+border-radius: 40px;
+}
+#TOYS:hover{
+    color: yellow;
+}
 
->>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
+
+
+#Biscuit{
+animation-name: Biscuit;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 130px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 70px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+padding-right: 20px;
+}
+@keyframes Biscuit{
+from{
+    color: red;
+}
+to{
+    color:white;
+}
+}
+
+
+
+
+.NEW3{
+    display:grid;
+width: 1400px;
+height: 600px;
+grid-template-columns: repeat(3, 1fr); 
+    gap: 200px;
+}
+
+
+
+.NEW4{
+    display:grid;
+width: 1400px;
+height: 4600px;
+grid-template-columns: repeat(3, 1fr); 
+    gap: 200px;
+}
+
+
+#GEOMETRYBOX{
+animation-name: GEOMETRYBOX;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 70px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+padding-right: 20px;
+}
+@keyframes GEOMETRYBOX{
+from{
+    color: red;
+}
+to{
+    color:white;
+}
+}
+
+
+
+
+
+
+#Electronics{
+    border: 3px dotted black;
+    display: flex;
+    justify-content: center;
+align-items: center;
+width: 1350px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+font-size: 80px;
+color:white;
+background-color: rgb(2, 209, 102);
+transition-duration: 1s;
+border-radius: 40px;
+}
+#Electronics:hover{
+    color: yellow;
+}
+
+
+
+
+
+#Bluetooth{
+animation-name: Bluetooth;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 70px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+padding-right: 20px;
+}
+@keyframes Bluetooth{
+from{
+    color: red;
+}
+to{
+    color:white;
+}
+}
+
+
+
+
+
+#ps5{
+animation-name: ps5;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 70px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+padding-right: 20px;
+}
+@keyframes ps5{
+from{
+    color: red;
+}
+to{
+    color:white;
+}
+}
+
+
+#Airfryer{
+animation-name: Airfryer;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 70px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+padding-right: 20px;
+}
+@keyframes Airfryer{
+from{
+    color: red;
+}
+to{
+    color:white;
+}
+}
+
+
+
+
+
+
+#Refrigerator{
+animation-name: Refrigerator;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 70px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+padding-right: 20px;
+}
+@keyframes Refrigerator{
+from{
+    color: red;
+}
+to{
+    color:white;
+}
+}
+
+
+
+
+
+#Camera{
+animation-name: Camera;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 70px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+padding-right: 20px;
+}
+@keyframes Camera{
+from{
+    color: red;
+}
+to{
+    color:white;
+}
+}
+
+
+
+
+
+#Juicer{
+animation-name:Juicer;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 70px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+padding-right: 20px;
+}
+@keyframes Juicer{
+from{
+    color: red;
+}
+to{
+    color:white;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #Biscuit{
