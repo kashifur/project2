@@ -327,13 +327,13 @@ border-radius: 40px;
 #STATIONARY:hover{
     color: yellow;
 }
-#CLASSMATE{
-animation-name: CLASSMATE;
+#CLASSMATEPEN{
+animation-name: CLASSMATEPEN;
 animation-duration :2s;
 animation-iteration-count: infinite;
 animation-direction: alternate;
 border: 1px solid black;
-width: 220px;
+width: 290px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -344,7 +344,7 @@ border-radius: 30px;
 font-size: 32px;
 padding-right: 20px;
 }
-@keyframes CLASSMATE{
+@keyframes CLASSMATEPEN{
 from{
     color: red;
 }
@@ -352,13 +352,20 @@ to{
     color:white;
 }
 }
+.NEW1{
+    display:grid;
+width: 1400px;
+height: 700px;
+grid-template-columns: repeat(3, 1fr); 
+    gap: 200px;
+}
 
 
 
 .NEW{
     display:grid;
 width: 1400px;
-height: 2600px;
+height: 2200px;
 grid-template-columns: repeat(3, 1fr); 
     gap: 200px;
 }
@@ -416,5 +423,78 @@ to{
     color:white;
 }
 }
+
+#CLASSMATE{
+animation-name: CLASSMATE;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 70px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+padding-right: 20px;
+}
+@keyframes CLASSMATE{
+from{
+    color: red;
+}
+to{
+    color:white;
+}
+}
+
+
+
+
+
+#GEOMETRYBOX{
+animation-name:GEOMETRYBOX;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 70px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+padding-right: 20px;
+}
+@keyframes GEOMETRYBOX{
+from{
+    color: red;
+}
+to{
+    color:white;
+}
+}
+
+
+
+
+
+.NEW2{
+    display:grid;
+width: 1400px;
+height: 600px;
+grid-template-columns: repeat(3, 1fr); 
+    gap: 200px;
+}
+
+
+
+
+
 
 
