@@ -279,6 +279,9 @@ to{
 }
 
 
+<<<<<<< HEAD
+#Electronics{
+=======
 
 #HP{
 animation-name: HP;
@@ -310,6 +313,7 @@ to{
 
 
 #STATIONARY{
+>>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
     border: 3px dotted black;
     display: flex;
     justify-content: center;
@@ -324,16 +328,28 @@ background-color: rgb(2, 209, 102);
 transition-duration: 1s;
 border-radius: 40px;
 }
+<<<<<<< HEAD
+#Laptop:hover{
+    color: yellow;
+}
+#Bluetooth{
+animation-name:Bluetooth;
+=======
 #STATIONARY:hover{
     color: yellow;
 }
 #CLASSMATEPEN{
 animation-name: CLASSMATEPEN;
+>>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
 animation-duration :2s;
 animation-iteration-count: infinite;
 animation-direction: alternate;
 border: 1px solid black;
+<<<<<<< HEAD
+width: 140px;
+=======
 width: 290px;
+>>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
 display: flex;
 justify-content: center;
 align-items: center;
@@ -344,7 +360,11 @@ border-radius: 30px;
 font-size: 32px;
 padding-right: 20px;
 }
+<<<<<<< HEAD
+@keyframes Bluetooth{
+=======
 @keyframes CLASSMATEPEN{
+>>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
 from{
     color: red;
 }
@@ -352,14 +372,24 @@ to{
     color:white;
 }
 }
+<<<<<<< HEAD
+.FOLDER1{
+    display:grid;
+width: 1400px;
+height: 650px;
+=======
 .NEW1{
     display:grid;
 width: 1400px;
 height: 700px;
+>>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
 grid-template-columns: repeat(3, 1fr); 
     gap: 200px;
 }
 
+<<<<<<< HEAD
+.CONTANT1{
+=======
 
 
 .NEW{
@@ -371,13 +401,18 @@ grid-template-columns: repeat(3, 1fr);
 }
 
 .HERO{
+>>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
     width: 530px;
     height: 600px;
     border: 2px solid white;
     background-color: rgb(241, 236, 232);
     border-radius: 30px;
 }
+<<<<<<< HEAD
+.CONTANT1 img{
+=======
 .HERO img{
+>>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
     width:90%;
     height: 57%;
     padding-left: 28px;
@@ -385,7 +420,11 @@ grid-template-columns: repeat(3, 1fr);
 }
 
 
+<<<<<<< HEAD
+.CONTANT1 a{
+=======
 .HERO a{
+>>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
     font-size: 40px;
     text-decoration: none;
     display: flex;
@@ -398,17 +437,36 @@ grid-template-columns: repeat(3, 1fr);
 
 
 
+<<<<<<< HEAD
+
+#Bluetooth{
+animation-name: ASUS;
+=======
 #Oneplus{
 animation-name:Oneplus;
+>>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
 animation-duration :2s;
 animation-iteration-count: infinite;
 animation-direction: alternate;
 border: 1px solid black;
+<<<<<<< HEAD
+width: 250px;
+=======
 width: 100px;
+>>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
 display: flex;
 justify-content: center;
 align-items: center;
 background-color:rgba(0, 0, 0, 0.849);
+<<<<<<< HEAD
+margin-top: 170px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+padding-right: 20px;
+}
+@keyframes ASUS{
+=======
 margin-top: 70px;
 margin-left: 15px;
 border-radius: 30px;
@@ -416,11 +474,15 @@ font-size: 32px;
 padding-right: 45px;
 }
 @keyframes Oneplus{
+>>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
 from{
     color: red;
 }
 to{
     color:white;
+<<<<<<< HEAD
+}}
+=======
 }
 }
 
@@ -515,6 +577,7 @@ border-radius: 40px;
 
 
 
+>>>>>>> 238e4b42cc7d442024d3e06122f6e889e83ac77c
 
 
 #Biscuit{
