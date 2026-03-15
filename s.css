@@ -114,18 +114,29 @@ grid-template-columns: repeat(3, 1fr);
     height: 750px;
     border: 2px solid white;
     display: inline-block;
-    background-color: rgb(241, 236, 232);
-    border-radius: 30px;
+    background-color:white;
+box-shadow: 0px 4px 8px black;
+transition: 0s;
+margin: 10px;
+}
+.item:hover{
+    box-shadow: 5px 10px 20px black;
+}
+
+
+.CONTANT{
+    width: 530px;
+    height: 750px;
+    border: 2px solid white;
+    display: inline-block;
+    background-color:white;
 box-shadow: 0px 4px 8px black;
 transition: 0s;
 margin: 10px;
 
 }
-.item:hover{
+.CONTANT:hover{
     box-shadow: 5px 10px 20px black;
-}
-.desc{
-    padding: opx 2px 0px 2px;
 }
 
 
@@ -151,18 +162,19 @@ h3{
     padding-left: 165px;
     color: brown;   
 }
-.item a{
+ .item a{
     font-size: 40px;
     text-decoration: none;
-    width:300px;
+    width:370px;
     border-top: 2px solid rgb(210, 210, 128);
     padding-left: 162px;
     background-color: rgb(225, 225, 4);
     color: white;
-    border-radius: 20px;
-    justify-content: center;
-
+    display: flex;
+    justify-content:center;
 }
+
+
 #Vivo{
 animation-name: Vivo;
 animation-duration :2s;
@@ -298,7 +310,9 @@ grid-template-columns: repeat(3, 1fr);
     height: 600px;
     border: 2px solid white;
     background-color: rgb(241, 236, 232);
-    border-radius: 30px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+
 }
 .CONTANT img{
     width:90%;
@@ -427,35 +441,103 @@ to{
 .NEW1{
     display:grid;
 width: 1400px;
-height: 700px;
+height: 800px;
 grid-template-columns: repeat(3, 1fr); 
     gap: 200px;}
-.NEW{
-    display:grid;
-width: 1400px;
-height: 2200px;
-grid-template-columns: repeat(3, 1fr); 
-    gap: 200px;
-}
+
 
 .NEW6{
     display:grid;
 width: 1400px;
-height: 2600px;
+height: 2800px;
+grid-template-columns: repeat(3, 1fr); 
+    gap: 200px;
+}
+.NEW2{
+    display:grid;
+width: 1400px;
+height: 800px;
+grid-template-columns: repeat(3, 1fr); 
+    gap: 200px;
+}
+
+
+.NEW{
+    display:grid;
+width: 1800px;
+height: 2000px;
+grid-template-columns: repeat(3, 1fr); 
+    gap: 200px;
+}
+
+
+
+.NEW4{
+    display:grid;
+width: 1400px;
+height: 2500px;
+grid-template-columns: repeat(3, 1fr); 
+    gap: 200px;
+}
+
+
+
+.NEW3{
+    display:grid;
+width: 1400px;
+height: 900px;
 grid-template-columns: repeat(3, 1fr); 
     gap: 200px;
 }
 
 .HERO{
-    width: 530px;
-    height: 600px;
+width: 510px;
+    height: 675px;
     border: 2px solid white;
-    background-color: rgb(241, 236, 232);
-    border-radius: 30px;
+    display: inline-block;
+    background-color:white;
+box-shadow: 0px 4px 8px black;
+transition: 0s;
+margin: 10px;
+ border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
 }
+
+.item{
+width: 510px;
+    height: 670px;
+    border: 2px solid white;
+    display: inline-block;
+    background-color:white;
+box-shadow: 0px 4px 8px black;
+transition: 0s;
+margin: 10px;
+ border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+}
+
+
+.container{
+    display:grid;
+width: 1400px;
+height: 1600px;
+grid-template-columns: repeat(3, 1fr); 
+    gap: 200px;
+}
+
+.HERO:hover{
+    box-shadow: 5px 10px 20px black;
+}
+
+
+.item:hover{
+    box-shadow: 5px 10px 20px black;
+}
+
+
 .HERO img{
- width:90%;
-    height: 63%;
+ width:89%;
+    height: 62%;
     padding-left: 28px;
     padding-top: 15px;
 }
@@ -463,12 +545,82 @@ grid-template-columns: repeat(3, 1fr);
     font-size: 40px;
     text-decoration: none;
     display: flex;
-    border-top: 2px solid rgb(210, 210, 128);
-    padding-left: 162px;
+    border-top: 2px solid rgb(225, 225, 4);
     background-color: rgb(225, 225, 4);
+    align-items: center;
     color: white;
     border-radius: 3px;
+    justify-content: center;
 }
+
+
+
+.item img{
+ width:89%;
+    height: 67%;
+    padding-left: 28px;
+    padding-top: 15px;
+}
+.item a{
+    font-size: 40px;
+    text-decoration: none;
+    display: flex;
+    width: 350px;
+    border-top: 2px solid rgb(225, 225, 4);
+    background-color: rgb(225, 225, 4);
+    align-items: center;
+    color: white;
+    border-radius: 3px;
+    justify-content: center;
+}
+
+
+
+
+
+
+.HERO1{
+width: 510px;
+    height: 666px;
+    border: 2px solid white;
+    display: inline-block;
+    background-color:white;
+box-shadow: 0px 4px 8px black;
+transition: 0s;
+margin: 10px;
+ border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+}
+.HERO1:hover{
+    box-shadow: 5px 10px 20px black;
+}
+
+
+
+
+
+.HERO1 img{
+ width:89%;
+    height: 67%;
+    padding-left: 28px;
+    padding-top: 15px;
+}
+.HERO1 a{
+    font-size: 40px;
+    text-decoration: none;
+    display: flex;
+    border-top: 2px solid rgb(225, 225, 4);
+    background-color: rgb(225, 225, 4);
+    align-items: center;
+    color: white;
+    border-radius: 3px;
+    justify-content: center;
+}
+
+
+
+
+
 
 #Oneplus{
 animation-name:Oneplus;
@@ -572,13 +724,7 @@ to{
 
 
 
-.NEW2{
-    display:grid;
-width: 1400px;
-height: 600px;
-grid-template-columns: repeat(3, 1fr); 
-    gap: 200px;
-}
+
 
 
 
@@ -600,7 +746,6 @@ border-radius: 40px;
 #Snacks:hover{
     color: yellow;
 }
-
 
 #TOYS{
     border: 3px dotted black;
@@ -652,13 +797,7 @@ to{
 
 
 
-.NEW3{
-    display:grid;
-width: 1400px;
-height: 600px;
-grid-template-columns: repeat(3, 1fr); 
-    gap: 200px;
-}
+
 
 
 .NEW7{
@@ -669,13 +808,7 @@ grid-template-columns: repeat(3, 1fr);
     gap: 200px;
 }
 
-.NEW4{
-    display:grid;
-width: 1400px;
-height: 4600px;
-grid-template-columns: repeat(3, 1fr); 
-    gap: 200px;
-}
+
 
 
 #GEOMETRYBOX{
@@ -1019,13 +1152,6 @@ grid-template-columns: repeat(3, 1fr);
 
 
 
-.NEW4{
-    display:grid;
-width: 1400px;
-height: 1900px;
-grid-template-columns: repeat(3, 1fr); 
-    gap: 200px;
-}
 
 
 .item1{
@@ -1041,7 +1167,6 @@ grid-template-columns: repeat(3, 1fr);
     padding-left: 28px;
     padding-top: 15px;
 }
-
 .item1 a{
     font-size: 40px;
     text-decoration: none;
@@ -1052,3 +1177,34 @@ grid-template-columns: repeat(3, 1fr);
     color: white;
     border-radius: 3px;
 }
+
+
+
+#PowerBank{
+animation-name: PowerBank;
+animation-duration :2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+border: 1px solid black;
+width: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0, 0, 0, 0.849);
+margin-top: 70px;
+margin-left: 15px;
+border-radius: 30px;
+font-size: 32px;
+padding-right: 20px;
+}
+@keyframes PowerBank{
+from{
+    color: red;
+}
+to{
+    color:white;
+}
+}
+
+
+
